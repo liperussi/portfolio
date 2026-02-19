@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Joana Bertolini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Joana Bertolini</div>
+        <nav>
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="texto">
+            <h1>Oi, sou a Joana Bertolini.</h1>
+            <p>Ajudo você a mudar seu estilo e ficar mais fashion.</p>
+            <button onclick="scrollToSection('contato')">Entre em contato.</button>
+        </div>
+        <div class="imagem">
+            <img src="minha-foto.png" alt="Perfil Joana">
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="grid">
+            <div class="card">Projeto 1</div>
+            <div class="card">Projeto 2</div>
+            <div class="card">Projeto 3</div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Sou designer e personal stylist.</p>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <h2>Whatsapp</h2>
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Joana Bertolini - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
